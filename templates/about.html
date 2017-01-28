@@ -1,0 +1,14 @@
+{% extends 'index.html' %}
+{% block title %}About{% endblock %}
+{% block content %}        
+<div class="content pure-u-1 pure-u-md-3-4">
+    <div>
+
+        <h1>Hi, my name is saviour gidi.</h1>
+        <h2>I'm a Python Software Engineer from Vancouver, Canada.</h2>
+        <p><img src="{{ url_for('static',filename='img/about.jpeg') }}" alt="" class="pure-img-responsive"></p>
+        <p>On this blog I write about programming and other technical topics mostly related to Python and web development.</p>
+        <p>If you'd like to get in touch you can reach me via <a href="about">Twitter</a>, <a href="about">LinkedIn</a>, or <a href="about">email</a>.</p>
+
+    </div>
+{% endblock %}
