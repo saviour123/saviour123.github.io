@@ -36,8 +36,6 @@ def page(path):
     page = pages.get_or_404(path)
     return render_template('page.html', page=page)
 
-    
-
 # @app.route("/<path:path>/")
 # def page(path):
 #     return pages.get_or_404(path).html
