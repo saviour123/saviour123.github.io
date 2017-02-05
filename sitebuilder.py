@@ -12,6 +12,7 @@ FLATPAGES_EXTENSION = '.md'
 app = Flask(__name__)
 app.config.from_object(__name__)
 pages = FlatPages(app)
+freezer = Freezer(app)
 
 #main routes
 @app.route("/")
@@ -26,19 +27,12 @@ def about():
 def projects():
     return render_template('projects.html')
 
-@app.route("/articles")
-def articles():
-    return render_template('articles.html')
-
 
 @app.route('/<path:path>/')
 def page(path):
     page = pages.get_or_404(path)
     return render_template('page.html', page=page)
 
-# @app.route("/<path:path>/")
-# def page(path):
-#     return pages.get_or_404(path).html
 
 @app.route("/tag/<string:tag>/")
 def tag(tag):
