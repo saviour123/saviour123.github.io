@@ -21,10 +21,10 @@ Once the requirements are installed, you are ready to develop. Pull out your fav
 
 **Run the HTTP server on localhost to see the site**
 
-    (env)sav-subsystem:saviour123.github.io $ python3 -m http.server
+    (env)$ python3 -m http.server
 
-## Screenshots of the Site
+<!--## Screenshots of the Site
 
-<!-- ![Screenshot 1](docs/static-flask-site1.png)
+ ![Screenshot 1](docs/static-flask-site1.png)
 ![Screenshot 2](docs/static-flask-site2.png) -->
 

@@ -2,6 +2,7 @@ import sys
 from flask import Flask, render_template
 from flask_flatpages import FlatPages
 from flask_frozen import Freezer
+from datetime import datetime
 
 #app configurations
 DEBUG = True
@@ -17,7 +18,10 @@ freezer = Freezer(app)
 #main routes
 @app.route("/")
 def index():
-    return render_template('index.html', pages=pages)
+    articles = (p for p in pages if 'date' in p.meta)
+    latest = sorted(articles, reverse=True, key=lambda p: str(p.meta['date']))
+    # latest = sorted(articles, reverse=True, key=lambda p: datetime.strptime(p.meta['date'], '%Y-%m-%d'))
+    return render_template('index.html', pages=latest)
 
 @app.route("/about")
 def about():

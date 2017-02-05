@@ -1,8 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: "helvetica neue", "helvetica", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    /*font-family: "helvetica neue", "helvetica", sans-serif;*/
 }
 
 p {
@@ -229,7 +233,6 @@ h3 {
     }
     .social-tab{
         text-align: center;
-        /*margin-top: -33px;*/
         margin: -33px 0px -33px 0px;
     }
     .author-social{
@@ -239,4 +242,26 @@ h3 {
 
 #layout > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1){
     margin-left: -258px;
+}
+
+hr{
+    clear: both;
+    border: none;
+    color: #404041;
+    text-align: center;
+    margin: 14px 0 35px 0;
+    height: 14px;
+}
+
+hr::after {
+    font-size: 14px;
+    height: 14px;
+    line-height: 0;
+    content: "\273b\00A0\273d\00A0\273b";
+}
+
+.mainList > li{
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: -39px;
 }
