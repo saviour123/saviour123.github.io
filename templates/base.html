@@ -45,10 +45,17 @@
 				<p><img src="{{ url_for('static', filename='img/banner.jpeg') }}" alt="" class="pure-img-responsive"></p>
 				
 				{% block content %}
-					<p>Main Content Goes Here</p>
+				<p>Main Content Goes Here</p>
 				{% endblock %}
 
 			</div>
+		</div>
+		<div class="content pure-u-1 pure-u-md-3-4" id="footer">
+			<p>
+				 © 2016 Saviour Gidi
+				- Proudly hosted on <a href="https://pages.github.com">Git Pages</a>
+				- Get Intouch <a href="{{ url_for('about') }}">Contact me</a>
+			</p>
 		</div>
 	</div>
 </body>

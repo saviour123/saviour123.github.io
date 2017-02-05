@@ -10,7 +10,7 @@ FLATPAGES_AUTO_RELOAD = DEBUG
 FLATPAGES_EXTENSION = '.md'
 
 #my little app
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static_dir')
 app.config.from_object(__name__)
 pages = FlatPages(app)
 freezer = Freezer(app)
