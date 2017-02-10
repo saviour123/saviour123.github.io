@@ -258,7 +258,7 @@ hr::after {
     font-size: 14px;
     height: 14px;
     line-height: 0;
-    content: "\273b\00A0\273d\00A0\273b";
+    content: "\0ab\00A0\2d\00A0\0bb";
 }
 
 .mainList > li{
