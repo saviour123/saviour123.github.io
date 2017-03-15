@@ -1,4 +1,4 @@
-How to Increase Your EC2 EBS Instance
+## How to Increase Your EC2 EBS Instance
 
 You must make sure you stop your running service. Click on instances, 
 right click on the instance you would like to expand > instance state and stop.

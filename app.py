@@ -20,7 +20,6 @@ freezer = Freezer(app)
 def index():
     articles = (p for p in pages if 'date' in p.meta)
     latest = sorted(articles, reverse=True, key=lambda p: str(p.meta['date']))
-    # latest = sorted(articles, reverse=True, key=lambda p: datetime.strptime(p.meta['date'], '%Y-%m-%d'))
     return render_template('index.html', pages=latest)
 
 @app.route("/about")
