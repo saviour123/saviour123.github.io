@@ -4,4 +4,4 @@ threadsafe: true
 
 handlers:
     - url: /.*
-      script: sitebuilder.app
+      script: app.app

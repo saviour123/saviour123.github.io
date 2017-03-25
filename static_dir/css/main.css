@@ -1,11 +1,11 @@
 
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=PT Mono');
 
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family: "PT Mono", 'Lato', sans-serif;
     font-size: 18px;
     /*font-family: "helvetica neue", "helvetica", sans-serif;*/
 }
@@ -223,8 +223,7 @@ h3 {
 
 .social-tab {
     text-align: right;
-    /*margin: 12.167%;*/
-    margin: 7.167%;
+    margin: 6.167% -0.5em 0 0;
 }
 
 .my-border{
@@ -238,7 +237,7 @@ h3 {
     }
     .social-tab{
         text-align: center;
-        margin: -33px 0px -33px 0px;
+        margin: 10px 0px -64px 0px;
     }
     .author-social{
         display: inline-block;
@@ -279,4 +278,14 @@ hr::after {
 
 h1{
     font: bold 4em/1.2 'Bad Script';
+}
+
+code.prettyprint{
+  background: #8d8d8d !important;
+  font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
+  font-size: 11px;
+  line-height: 1.5;
+  color: #24b994;
+  border: 1px solid #cccccc;
+  padding: 10px;
 }

@@ -12,7 +12,7 @@ The following are some tips.
 
 ##Don't overcommunicate.
 
-Keep messages clear and brief.Be polite.Check your tone- avoid the usage jargons, shorthands. Read through your email before hitting send .
+Keep messages clear and brief.Be polite.Check your tone- avoid the usage of jargons, shorthands. Read through your email before hitting send .
 
 One, type your message before entering the email.  Be careful to type the recipient email address and pay attention to the spelling of the address.
 

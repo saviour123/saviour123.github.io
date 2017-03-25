@@ -1,16 +1,19 @@
 {% extends 'index.html' %}
 {% block title %}About{% endblock %}
-{% block content %}  
+
+{% block content %}
 <div class="content pure-u-1 pure-u-md-3-4">
 <div>
-	
-
-        <h1>Hi, my name is saviour gidi.</h1>
-        <h2>I'm a Python Software Engineer from Vancouver, Canada.</h2>
-        <p><img src="{{ url_for('static',filename='img/about.jpeg') }}" alt="" class="pure-img-responsive"></p>
-        <p>On this blog I write about programming and other technical topics mostly related to Python and web development.</p>
-        <p>If you'd like to get in touch you can reach me via <a href="about">Twitter</a>, <a href="about">LinkedIn</a>, or <a href="about">email</a>.</p>
-
+	<h3>Hi, my name is Saviour Gidi.</h3>
+	<h2>I'm a a GIS Developer from Volta Region, Ghana.</h2>
+				<!-- <img src="{{ url_for('static',filename='img/about.jpeg') }}" alt="" class="pure-img-responsive"> -->
+	<p>I do Linux System administration at Henson Geodata. I love and like hacking my way around things with python.
+		<br>
+	On this blog I write about programming and other technical topics mostly related to my environment.</p>
+  <p>If you'd like to get in touch you can reach me via <a href="about">Twitter</a>, <a href="about">LinkedIn</a>, or <a href="about">email</a>.</p>
  </div>
  </div>
+{% endblock %}
+{% block banner %}
+<p><iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10201867995297652%26set%3Da.1781325469033.52282.1716345966%26type%3D3&width=500" width="500" height="392" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></p>
 {% endblock %}

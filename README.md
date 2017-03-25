@@ -1,8 +1,8 @@
-## Website of saviourgidi: 
-Hosted with love: 
+## Website of saviourgidi:
+Hosted with love:
 `http://saviourgidi.appspot.com`
 
-Built with [Flask](flask.pocoo.org), overhauled with Frozen-Flask and Flatpages, Hosted with love **appengine**.
+Built with [Flask][flask.pocoo.org], overhauled with Frozen-Flask and Flatpages, Hosted with love **appengine**.
 
 This is simple static website generator that and can also be hosted directly on any shelf like heroku, Nanobox Google App Engine.
 #### You are free to use and improve it.
@@ -17,10 +17,10 @@ This is simple static website generator that and can also be hosted directly on 
 
 Once the requirements are installed, you are ready to develop. Pull out your favourite editor and fire this in the terminal.
 
-    $ python sitebuilder.py
+    $ python app.py
 
 ###To generate or build your website.
-    $ python sitebuilder.py build
+    $ python app.py build
 
 **Run the HTTP server on localhost to see the site**
 
@@ -30,4 +30,3 @@ Once the requirements are installed, you are ready to develop. Pull out your fav
 
  ![Screenshot 1](docs/static-flask-site1.png)
 ![Screenshot 2](docs/static-flask-site2.png) -->
-

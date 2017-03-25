@@ -8,7 +8,7 @@ subtitle: Internet security it’s an issue all of us must be concerned with reg
 Content Blocked?
 Why? I want to browse, I want to download this  Korean series. Sophos is getting annoying. Almost every site is blocked on campus( UG ).
 
-![Screenshot 1](static/img/{}.png)
+![Screenshot 1](static/img/screenshot-10.png)
 That is the complain of most of us when browsing. Why not stand out and have your way freely amidst Web Protection. I would explain in details web protection and would suggest simple tricks to bypass this Sophos things.[Introduction, UG WEB, Advantages, Solutions, Recommendations]
 
 Internet security it’s an issue all of us must be concerned with regarding our ever presence on with our Phones and Computers. We must be personally concerned about the security of WiFi we are connected to, the website we are visiting- are they stealing our personal data and selling it out to others for money among others.
