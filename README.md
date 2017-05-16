@@ -1,9 +1,7 @@
 ## Website of saviourgidi:
-Hosted with love on:
-Click Here
-[Google Appengine](https://saviourgidi.appspot.com)
+Hosted [here](https://saviourgidi.appspot.com) with love on [Google Appengine](https://appspot.com)
 
-Built with [Flask](http://flask.pocoo.org/), overhauled with Frozen-Flask and Flatpages, Hosted with love **appengine**.
+Built with [Flask](http://flask.pocoo.org/), overhauled with Frozen-Flask and Flatpages, Hosted with love on **appengine**.
 
 This is simple static website generator that and can also be hosted directly on any shelf like heroku, Nanobox Google App Engine.
 #### You are free to use and improve it.
