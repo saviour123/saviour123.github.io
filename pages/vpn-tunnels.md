@@ -1,11 +1,11 @@
-title: Write A Good Email
+title: VPN Usage- Bypass Web Blocks
 date: 2014-10-13
 tags: [general, internet, security]
 date-format: YYYY-MM-DD
 subtitle: Internet security it’s an issue all of us must be concerned with regarding our ever presence on with our Phones and Computers. We must be personally concerned about the security of WiFi we are connected to, the website we are visiting- are they stealing our personal data and selling it out to others for money among others.
 
 
-Content Blocked?
+## Content Blocked?
 Why? I want to browse, I want to download this  Korean series. Sophos is getting annoying. Almost every site is blocked on campus( UG ).
 
 ![Screenshot 1](static/img/screenshot-10.png)

@@ -6,20 +6,23 @@ subtitle: Writing a good email is a sweet as a good essay well layout, you email
 
 
 
-Having worked with Google students email for while, I have realized a lot of people have to step up their email writing skills.
+Having worked with Google students email for sometime, I have realized that some students need to work on 
+their emailing skills. I have outline some tips that would help you.
 
 The following are some tips.
 
-##Don't overcommunicate.
+## Don't overcommunicate.
 
-Keep messages clear and brief.Be polite.Check your tone- avoid the usage of jargons, shorthands. Read through your email before hitting send .
+Keep messages clear and brief.Be polite.Check your tone- avoid the usage of jargons, shorthands. Read through your email before hitting send.
 
-One, type your message before entering the email.  Be careful to type the recipient email address and pay attention to the spelling of the address.
+Type your message before entering the email and pay attention to the styling
 
 Two, SUBJECT area, Use this column to get a suitable topic for your email. It should be related to you message. It should not be longer than four words.
 
 
->>Never Type All your messages in the subject area.  Its the baddest thing you can ever do to your email.
+## Never Type All your messages in the subject area.  
+
+Its the baddest thing you can ever do to your email.
 
 Three, Use cc- copy: it copies message to other people and its the same as typing multiple emails separated by comma, in the recipient column
 

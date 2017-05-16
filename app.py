@@ -9,11 +9,13 @@ DEBUG = True
 FLATPAGES_AUTO_RELOAD = DEBUG
 FLATPAGES_EXTENSION = '.md'
 
+
 #my little app
 app = Flask(__name__, static_folder='static_dir')
 app.config.from_object(__name__)
 pages = FlatPages(app)
 freezer = Freezer(app)
+
 
 #main routes
 @app.route("/")
@@ -22,9 +24,11 @@ def index():
     latest = sorted(articles, reverse=True, key=lambda p: str(p.meta['date']))
     return render_template('index.html', pages=latest)
 
+
 @app.route("/about")
 def about():
     return render_template('about.html')
+
 
 @app.route("/projects")
 def projects():
@@ -41,6 +45,7 @@ def page(path):
 def tag(tag):
     tagged = [p for p in pages if tag in p.meta.get('tags', [])]
     return render_template('tag.html', pages=tagged, tag=tag)
+
 
 if __name__ == '__main__':
     if len(sys.argv) > 1 and sys.argv[1] == "build":
