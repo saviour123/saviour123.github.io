@@ -244,10 +244,6 @@ h3 {
     }
 }
 
-#layout > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1){
-    margin-left: -258px;
-}
-
 hr{
     clear: both;
     border: none;
@@ -267,7 +263,7 @@ hr::after {
 .mainList > li{
     list-style-type: none;
     text-decoration: none;
-    margin-left: -39px;
+    /*margin-left: -39px;*/
 }
 
 #footer > p, #footer > p > a{

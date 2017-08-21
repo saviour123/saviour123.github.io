@@ -4,20 +4,17 @@ from flask_flatpages import FlatPages
 from flask_frozen import Freezer
 from datetime import datetime
 
-#app configurations
 DEBUG = True
 FLATPAGES_AUTO_RELOAD = DEBUG
 FLATPAGES_EXTENSION = '.md'
 
 
-#my little app
 app = Flask(__name__, static_folder='static_dir')
 app.config.from_object(__name__)
 pages = FlatPages(app)
 freezer = Freezer(app)
 
 
-#main routes
 @app.route("/")
 def index():
     articles = (p for p in pages if 'date' in p.meta)
@@ -51,4 +48,4 @@ if __name__ == '__main__':
     if len(sys.argv) > 1 and sys.argv[1] == "build":
         freezer.freeze()
     else:
-        app.run(port=8000)
+        app.run(port=4000)
