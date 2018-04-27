@@ -1,20 +1,21 @@
 # Personal-Website
 
+::Archived 
 Upon several thoughts and seeing other developers with simple and cuter website, 
-I have decided to give myself a more simple design.
+I have decided to give myself a more simple design and elegant de
 This is an archive. You may want to give a feel. 
 
 ## Instructions
-`git clone reponame` && `cd the reponame`
+
+* Clone the repo
 
 From the console.
 
-`$ python -m SimpleHTTPServer`
+* run `$ python -m SimpleHTTPServer` at project root
 
-In your browser, open 
+* In your browser, open `http://127.0.0.1:5000/`
 
-http://127.0.0.1:5000/
 
-Feel free to branch it.
+## LICENSE
 
-New site here: [saviourgidi](https://saviourgidi.appspot.com)
+MIT
