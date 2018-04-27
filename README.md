@@ -1,31 +1,20 @@
-## Website of saviourgidi:
-Hosted [here](https://saviourgidi.appspot.com) with love on [Google Appengine](https://appspot.com)
+# Personal-Website
 
-Built with [Flask](http://flask.pocoo.org/), overhauled with Frozen-Flask and Flatpages, Hosted with love on **appengine**.
+Upon several thoughts and seeing other developers with simple and cuter website, 
+I have decided to give myself a more simple design.
+This is an archive. You may want to give a feel. 
 
-This is simple static website generator that and can also be hosted directly on any shelf like heroku, Nanobox Google App Engine.
-#### You are free to use and improve it.
+## Instructions
+`git clone reponame` && `cd the reponame`
 
+From the console.
 
-#### Ready to build.
+`$ python -m SimpleHTTPServer`
 
-    `$ git clone https://github.com/saviour123/saviour123.github.io.git && cd saviour123.github.io`
+In your browser, open 
 
-#### Set Up a virtualenv and install the requirements
-    `$ pip install -r requirements.txt`
+http://127.0.0.1:5000/
 
-Once the requirements are installed, you are ready to develop. Pull out your favourite editor and fire this in the terminal.
+Feel free to branch it.
 
-    `$ python app.py`
-
-### To generate or build your website.
-    `$ python app.py build`
-
-**Run the HTTP server on localhost to see the site**
-
-    `(env)$ python3 -m http.server`
-
-<!--## Screenshots of the Site
-
- ![Screenshot 1](docs/static-flask-site1.png)
-![Screenshot 2](docs/static-flask-site2.png) -->
+New site here: [saviourgidi](https://saviourgidi.appspot.com)
