@@ -2,7 +2,7 @@
 
 ::Archived 
 Upon several thoughts and seeing other developers with simple and cuter website, 
-I have decided to give myself a more simple design and elegant de
+I have decided to give myself a more simple design and elegant design
 This is an archive. You may want to give a feel. 
 
 ## Instructions
